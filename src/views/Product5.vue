@@ -9,7 +9,7 @@
         <p class="lead"></p>
       </div>
       <div class="bg-body-tertiary shadow-sm mx-auto" style="width: 500px;height: 500px;border-radius: 21px 21px 0px 0px;">
-        <img src="src\assets\Backpacks.jpg" alt="" style="width: 500px;height: 500px;"></div>
+        <img src="https://down-th.img.susercontent.com/file/th-11134207-23030-xzbprhkwllov87" alt="" style="width: 500px;height: 500px;"></div>
     </div>
 </template>
 

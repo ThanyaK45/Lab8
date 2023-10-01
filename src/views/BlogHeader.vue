@@ -73,7 +73,7 @@ import { RouterLink } from 'vue-router'
         <div class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
         <div class="col-4 pt-1">
             <RouterLink class="link-secondary" to="/">
-              <img src="src\assets\icon.png" alt="Icon" width="50">
+              <img src="https://cdn-icons-png.flaticon.com/512/3443/3443338.png" alt="Icon" width="50">
             </RouterLink>
         </div>
         </div>

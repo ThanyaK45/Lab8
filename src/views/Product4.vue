@@ -9,7 +9,7 @@
         <p class="lead"></p>
       </div>
       <div class="bg-body-tertiary shadow-sm mx-auto" style="width: 500px;height: 500px;border-radius: 21px 21px 0px 0px;">
-        <img src="src\assets\Caps.jpg" alt="" style="width: 500px;height: 500px;"></div>
+        <img src="https://down-th.img.susercontent.com/file/e531a3964c9518e2beb84905f03e1b3a" alt="" style="width: 500px;height: 500px;"></div>
     </div>
 </template>
 

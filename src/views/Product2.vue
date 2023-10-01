@@ -9,7 +9,7 @@
         <p class="lead"></p>
       </div>
       <div class="bg-body-tertiary shadow-sm mx-auto" style="width: 500px;height: 500px;border-radius: 21px 21px 0px 0px;">
-        <img src="src\assets\Cargo.png" alt="" style="width: 500px;height: 500px;"></div>
+        <img src="https://harmonious-moonbeam-fbf311.netlify.app/img/Cargo.png" alt="" style="width: 500px;height: 500px;"></div>
     </div>
 </template>
 

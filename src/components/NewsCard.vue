@@ -18,7 +18,7 @@ import { RouterLink } from 'vue-router'
                 <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg">
                 <title>ASRV เสื้อกันหนาวมีฮู้ด</title>
                 <rect width="100%" height="100%" fill="#fff"/>
-                <image xlink:href="src/assets/ASRV.png" x="0" y="0" width="200" height="250" />
+                <image xlink:href="https://harmonious-moonbeam-fbf311.netlify.app/img/ASRV.png" x="0" y="0" width="200" height="250" />
                 </svg>
             </RouterLink>
         </div>
@@ -37,7 +37,7 @@ import { RouterLink } from 'vue-router'
                 <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg">
                 <title>กางเกงคาร์โก้ลําลอง</title>
                 <rect width="100%" height="100%" fill="#fff"/>
-                <image xlink:href="src\assets\Cargo.png" x="0" y="0" width="200" height="250" />
+                <image xlink:href="https://harmonious-moonbeam-fbf311.netlify.app/img/Cargo.png" x="0" y="0" width="200" height="250" />
                 </svg>            
             </RouterLink>
         </div>
@@ -56,7 +56,7 @@ import { RouterLink } from 'vue-router'
                 <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg">
                 <title>Converse Run Star Hike Lugged</title>
                 <rect width="100%" height="100%" fill="#fff"/>
-                <image xlink:href="src\assets\Converse.png" x="0" y="0" width="200" height="250" />
+                <image xlink:href="https://harmonious-moonbeam-fbf311.netlify.app/img/Converse.png" x="0" y="0" width="200" height="250" />
                 </svg> 
             </RouterLink>
         </div>
@@ -75,7 +75,7 @@ import { RouterLink } from 'vue-router'
                 <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg">
                 <title>หมวกเบสแฟชั่น</title>
                 <rect width="100%" height="100%" fill="#fff"/>
-                <image xlink:href="src\assets\Caps.jpg" x="0" y="0" width="200" height="250" />
+                <image xlink:href="https://down-th.img.susercontent.com/file/e531a3964c9518e2beb84905f03e1b3a" x="0" y="0" width="200" height="250" />
                 </svg>         
             </RouterLink>
         </div>
@@ -94,7 +94,7 @@ import { RouterLink } from 'vue-router'
                 <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg">
                 <title>Feiyana-กระเป๋าสะพายหลังใส่คอมพิวเตอร์</title>
                 <rect width="100%" height="100%" fill="#fff"/>
-                <image xlink:href="src\assets\Backpacks.jpg" x="0" y="0" width="200" height="250" />
+                <image xlink:href="https://down-th.img.susercontent.com/file/th-11134207-23030-xzbprhkwllov87" x="0" y="0" width="200" height="250" />
                 </svg> 
             </RouterLink>
         </div>
@@ -113,7 +113,7 @@ import { RouterLink } from 'vue-router'
                 <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg">
                 <title>Apple AirPods 3</title>
                 <rect width="100%" height="100%" fill="#fff"/>
-                <image xlink:href="src\assets\Airpods.jpg" x="0" y="0" width="200" height="250" />
+                <image xlink:href="https://harmonious-moonbeam-fbf311.netlify.app/img/AirPods.png" x="0" y="0" width="200" height="250" />
                 </svg> 
             </RouterLink>
         </div>
