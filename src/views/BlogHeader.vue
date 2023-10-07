@@ -81,6 +81,7 @@ import { RouterLink } from 'vue-router'
         <RouterLink class="nav-item nav-link link-body-emphasis" to="/">Home</RouterLink>
         <RouterLink class="nav-item nav-link link-body-emphasis" to="/review">Review</RouterLink>
         <RouterLink class="nav-item nav-link link-body-emphasis" to="/about">About</RouterLink>
+        <RouterLink class="nav-item nav-link link-body-emphasis" to="/cart">My Cart</RouterLink>
       </ul>
     </header>
         </div>

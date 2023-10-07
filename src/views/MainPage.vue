@@ -1,11 +1,9 @@
 <script setup>
-import NewsCard from '../components/NewsCard.vue'
+import ProductShow from '../components/ProductShow.vue'
 </script>
 
 <template>
-    <div>
-        <NewsCard></NewsCard>
-    </div>
+    <ProductShow />
 </template>
 
 <style scoped>
