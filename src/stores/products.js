@@ -10,7 +10,7 @@ export const useProductStore = defineStore({
         Name : 'ASRV เสื้อกันหนาวมีฮู้ด Unisex Top Coat',
         Price : '฿273.00',
         PriceCal : 273.00, 
-        img : "https://github.com/ThanyaK45/Lab8/blob/main/src/assets/ASRV.png?raw=true"},
+        img : "public/img/ASRV.png"},
       { id : 2,
         Name : 'FARUILINE STORE กางเกงคาร์โก้ลําลอง',
         Price : '฿363.00',
