@@ -72,14 +72,14 @@ import { RouterLink } from 'vue-router'
     <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
         <div class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
         <div class="col-4 pt-1">
-            <RouterLink class="link-secondary" to="/">
+            <RouterLink to="/" class="link-secondary" >
               <img src="https://cdn-icons-png.flaticon.com/512/3443/3443338.png" alt="Icon" width="50">
             </RouterLink>
         </div>
         </div>
         <ul class="nav nav-pills">
-        <RouterLink class="nav-item nav-link link-body-emphasis" to="/">Home</RouterLink>
-        <RouterLink class="nav-item nav-link link-body-emphasis" to="/review">Review</RouterLink>
+        <RouterLink to="/" class="nav-item nav-link link-body-emphasis" >Home</RouterLink>
+        <RouterLink to="/review" class="nav-item nav-link link-body-emphasis" >Review</RouterLink>
         <RouterLink class="nav-item nav-link link-body-emphasis" to="/about">About</RouterLink>
         <RouterLink class="nav-item nav-link link-body-emphasis" to="/cart">My Cart</RouterLink>
       </ul>
