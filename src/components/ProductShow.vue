@@ -24,18 +24,83 @@ const addToCart = (productData) => {
             <h3 class="mb-0">{{ productData.Name }}</h3>
             <p>{{ productData.Price }}</p>
             <p class="card-text mb-auto"></p>
+            <div class="panelbuttcon">
+              <div class="panelbuttcon">
+                <div class="buttcon">
+                  <div class="input-group mb-2">
+                    <span class="input-group-text quatitybuttbgminus">
+                      <button class="quatitybutt" @click="storeProduct.decrementQuantity(productData)">
+                        <img class="imgbutt" src="@/assets/minus.png" alt="">
+                      </button>
+                    </span>
+                    <input class="form-control no-spinners" type="number" v-model="productData.quatity" style="font-weight: bold; text-align: center; font-size: smaller; color: rgb(11, 34, 57);" min="0">
+                    <span class="input-group-text quatitybuttbgplus">
+                      <button class="quatitybutt" @click="storeProduct.incrementQuantity(productData)">
+                        <img class="imgbutt" src="@/assets/plus.png" alt="">
+                      </button>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="panelbuttcon">
+              <button type="button" class="btn btn-success" style="margin: auto; margin-bottom: 1%;"  @click="addToCart(productData)">เพิ่มลงในตะกร้า</button>
+            </div>
             <RouterLink :to="{name: 'productDetail', params: {id: productData.id}}" class="btn btn-dark rounded-pill px-3">
                 About Product
             </RouterLink>
             </div>
             <RouterLink :to="{name: 'productDetail', params: {id: productData.id}}" class="col-auto d-none d-lg-block">
-                <svg class="bd-placeholder-img" width="200" height="250" xmlns="http://www.w3.org/2000/svg">
+                <svg class="bd-placeholder-img" width="200" height="250" >
                 <title>{{ productData.Name }}</title>
-                <rect width="100%" height="100%" fill="#fff"/>
-                <img :src="productData.img" x="0" y="0" width="200" height="250" alt="productImg">
                 </svg>
+                <div class="card cardframe" >
+                <img :src="productData.img" class="card-img-top" alt="productImg" width="200" height="250">
+                </div>
             </RouterLink>
+            
         </div>
         </div>
     </div>
 </template>
+
+<style scoped>
+.panelbuttcon{
+  display: flex;
+}
+
+.buttcon{
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  
+}
+
+.quatitybuttbgminus:hover{
+background-color: rgb(248, 79, 49);
+}
+
+.quatitybuttbgplus:hover{
+background-color: rgb(35, 197, 82);
+}
+
+
+.quatitybutt{
+  border: hidden;   
+  background-color: transparent;
+}
+
+.no-spinners::-webkit-inner-spin-button,
+.no-spinners::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0; /* Optional: Adjust margin to control spacing */
+}
+
+
+.imgbutt{
+  width: 1vw;
+}
+</style>
