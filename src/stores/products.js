@@ -20,7 +20,7 @@ export const useProductStore = defineStore({
         Name : 'Converse Run Star Hike Lugged',
         Price : '฿3,600.00',
         PriceCal : 3600.00, 
-        img : '../img/Converse.png'},
+        img : '../img/Converse.jpg'},
       { id : 4,
         Name : 'หมวกเบสแฟชั่น ปักลายดาว',
         Price : '฿120.00', 
